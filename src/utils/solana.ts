@@ -4,7 +4,6 @@ import {
   Transaction,
   SystemProgram,
   LAMPORTS_PER_SOL,
-  sendAndConfirmTransaction,
 } from "@solana/web3.js";
 import {
   TOKEN_PROGRAM_ID,
@@ -190,7 +189,6 @@ export async function getTokenMetadata(
  * Calculate total transaction fees
  */
 export async function calculateTransactionFees(
-  connection: Connection,
   numberOfRecipients: number,
   isTokenTransfer: boolean = false
 ): Promise<number> {
