@@ -1,12 +1,3 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 # Multi-Send dApp
 
 A powerful Solana multi-send application that allows you to send SOL or SPL tokens to multiple recipients in a single transaction.
@@ -227,3 +218,7 @@ export default tseslint.config([
   },
 ]);
 ```
+
+---
+
+**Note**: This application helps in sending Solana and tokens to multiple recipients in one time, providing a comprehensive UI for multi-send operations on the Solana blockchain.
